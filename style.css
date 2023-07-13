@@ -1,0 +1,92 @@
+.nav-item{
+    padding-left:30px;
+    padding-right:30px;
+   
+   }
+  .nav-item {
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+   .word {
+          color: #000;
+        }
+        .word:before {
+          color: #1619c0;
+          content: "Welcome";
+          font-weight:bold;
+          font-size: 20px;
+
+        }
+   .strong {
+          color: #000;
+        }
+        .strong:before {
+          color: #1619c0;
+          content: "The Mission";
+          font-weight:bold;
+          font-size: 20px;
+          }
+
+  .values {
+          color: #000;
+        }
+        .values:before {
+          color: #1619c0;
+          content: "Our Values";
+          font-weight:bold;
+          font-size: 20px;
+
+        }
+  .mentorship {
+          color: #000;
+        }
+        .mentorship:before {
+          color: #1619c0;
+          content: "Mentorship";
+          font-weight:bold;
+          font-size: 20px;
+
+        }
+  body {
+    font-family: 'satoshi', sans-serif !important;
+  }
+
+  .card img{
+    width: 40%;
+    
+  margin: 0 auto;
+}
+   
+.card{
+   
+  width: 65%;
+    border-radius: 50%;
+  padding: 1.5em .5em .5em;
+  border-width: 0.5em;
+    text-align: center;
+    border-style: solid;
+  border-color: #1691c0;
+}
+.section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 0rem;
+}
+.mentor {
+  color: #000;
+}
+.mentor:before {
+  color: #1619c0;
+  content: "The Projects to Mentor ";
+  font-weight:bold;
+  font-size: 20px;
+  
+}
+.bg-custom-1 {
+    background-color: #85144b;
+  }
+  .bg-custom-2 {
+    background-image: linear-gradient(180deg, #72B8C8 0%, rgba(255, 255, 255, 0.00) 100%); }
+  
